@@ -6,7 +6,7 @@ This repository contains the code for the EMNLP 2021 paper ["Structural Adapters
 structure-aware adapter parameters.
 
 <p align="center">
-<img src="img/figure10adapter-paper.png" width="500">
+<img src="img/figure1-adapter-paper.png" width="500">
 </p>
 
 Figure 1(a) shows a standard adapter, whereas Figure 1(b) illustrates **StructAdapt**.
