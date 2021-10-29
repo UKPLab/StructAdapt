@@ -2,7 +2,7 @@
 
 This repository contains the code for the [EMNLP 2021 paper](https://arxiv.org/pdf/2103.09120.pdf) "Structural Adapters in Pretrained Language Models for AMR-to-Text Generation". Please star the repository and cite the paper if you find it useful. 
 
-**StructAdapt** is an adapter method to encode graph structure into pretrained language models. Contrary to prior work, **StructAdapt** effectively models interactions among the nodes based on the graph connectivity, only training graph
+**StructAdapt** is an adapter-based method that encodes graph structures into pretrained language models. Contrary to prior work, **StructAdapt** effectively models interactions among the nodes based on the graph connectivity, only training graph
 structure-aware adapter parameters.
 
 <p align="center">
