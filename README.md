@@ -85,7 +85,7 @@ Example:
 
 ## Traiened Model
 
-A checkpoint of StrutAdapt trained on LDC2020T02 dataset can be found [here](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/structadapt/ckpt_amr2020.tar.gz). This model achieves a BLEU score of 48.21. The outputs can be downloaded [here](outputs/test_generations.txt).
+A checkpoint of StrutAdapt (T5-large) trained on LDC2020T02 dataset can be found [here](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/structadapt/ckpt_amr2020.tar.gz). This model achieves a BLEU score of 48.21. The outputs can be downloaded [here](https://raw.githubusercontent.com/UKPLab/StructAdapt/master/outputs/test_generations.txt).
 
 ## More
 For more details regading hyperparameters, please refer to [HuggingFace](https://huggingface.co/).
