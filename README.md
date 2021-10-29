@@ -33,7 +33,7 @@ pip install torch-scatter==2.0.5 -f https://data.pyg.org/whl/torch-1.6.0+${CUDA}
 pip install torch-sparse==0.6.8 -f https://data.pyg.org/whl/torch-1.6.0+${CUDA}.html
 pip install torch-geometric==1.6.1
 ```
-where {CUDA} is your CUDA version. Please, refer to [PyTorch Geometric installation page](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) for more details.
+where `{CUDA}` is your CUDA version. Please, refer to [PyTorch Geometric installation page](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) for more details.
 
 Finally, install the packages required:
 
