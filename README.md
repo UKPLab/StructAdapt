@@ -25,15 +25,10 @@ The easiest way to proceed is to create a conda environment:
 conda create -n structadapt python=3.6
 ```
 
-Further, install PyTorch:
+Further, install PyTorch and PyTorch Geometric:
 
 ```
 conda install -c pytorch pytorch=1.6.0
-```
-
-We also need to install PyTorch Geometric:
-
-```
 pip install torch-scatter==2.0.5 -f https://data.pyg.org/whl/torch-1.6.0+${CUDA}.html
 pip install torch-sparse==0.6.8 -f https://data.pyg.org/whl/torch-1.6.0+${CUDA}.html
 pip install torch-geometric==1.6.1
