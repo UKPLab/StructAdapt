@@ -83,7 +83,7 @@ Example:
 A checkpoint of **StrutAdapt** (T5-large) trained on LDC2020T02 dataset can be found [here](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/structadapt/ckpt_amr2020.tar.gz). This model achieves a _BLEU score_ of _48.21_. The outputs can be downloaded [here](https://raw.githubusercontent.com/UKPLab/StructAdapt/master/outputs/test_generations.txt).
 
 ## More
-For more details regading hyperparameters, please refer to [HuggingFace](https://huggingface.co/).
+For more details regarding hyperparameters, please refer to [HuggingFace](https://huggingface.co/).
 
 
 **Contact person:** Leonardo Ribeiro, ribeiro@aiphes.tu-darmstadt.de
