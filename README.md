@@ -91,15 +91,18 @@ For more details regarding hyperparameters, please refer to [HuggingFace](https:
 ## Citation
 
 ```
-@inproceedings{ribeiro-etal-2021-structadapt,
-    title = "Structural Adapters in Pretrained Language Models for AMR-to-Text Generation",
+@inproceedings{ribeiro-etal-2021-structural,
+    title = "Structural Adapters in Pretrained Language Models for {AMR}-to-{T}ext Generation",
     author = "Ribeiro, Leonardo F. R.  and
       Zhang, Yue  and
       Gurevych, Iryna",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2021",
-    address = "Punta Cana, Dominican Republic",
+    address = "Online and Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.351",
+    pages = "4269--4282",
+    abstract = "Pretrained language models (PLM) have recently advanced graph-to-text generation, where the input graph is linearized into a sequence and fed into the PLM to obtain its representation. However, efficiently encoding the graph structure in PLMs is challenging because such models were pretrained on natural language, and modeling structured data may lead to catastrophic forgetting of distributional knowledge. In this paper, we propose StructAdapt, an adapter method to encode graph structure into PLMs. Contrary to prior work, StructAdapt effectively models interactions among the nodes based on the graph connectivity, only training graph structure-aware adapter parameters. In this way, we incorporate task-specific knowledge while maintaining the topological structure of the graph. We empirically show the benefits of explicitly encoding graph structure into PLMs using StructAdapt, outperforming the state of the art on two AMR-to-text datasets, training only 5.1{\%} of the PLM parameters.",
 }
 ```
