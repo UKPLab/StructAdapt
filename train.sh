@@ -14,7 +14,7 @@ MODEL=$1
 DATA_DIR=$2
 GPUID=$3
 export CUDA_VISIBLE_DEVICES=${GPUID}
-python finetune.py \
+python3.8 finetune.py \
 --data_dir=${DATA_DIR} \
 --learning_rate=1e-4 \
 --num_train_epochs 100 \

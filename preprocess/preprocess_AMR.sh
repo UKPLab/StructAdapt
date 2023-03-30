@@ -1,6 +1,7 @@
 #!/bin/bash
 
-ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+# ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+ROOT_DIR="/work/pi_mccallum_umass_edu/brozonoyer_umass_edu/StructAdapt"
 
 REPO_DIR=${ROOT_DIR}/../data/
 mkdir -p ${REPO_DIR}
@@ -8,7 +9,8 @@ mkdir -p ${REPO_DIR}
 FINAL_AMR_DIR=${REPO_DIR}/processed_amr
 mkdir -p ${FINAL_AMR_DIR}
 
-DATA_DIR=${1}
+# DATA_DIR=${1}
+DATA_DIR="/work/pi_mccallum_umass_edu/brozonoyer_umass_edu/GLOCAL/DATA/AMR3.0"
 
 PREPROC_DIR=${REPO_DIR}/tmp_amr
 mkdir -p ${PREPROC_DIR}

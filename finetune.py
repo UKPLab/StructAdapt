@@ -57,6 +57,12 @@ class SummarizationModule(BaseTransformer):
     default_val_metric = "rouge2"
 
     def __init__(self, hparams, **kwargs):
+
+        # TODO: temporary save hyperparams of this model to load into GLOCAL/train.py
+        # import pickle
+        # with open("/work/pi_mccallum_umass_edu/brozonoyer_umass_edu/GLOCAL/struct-adapt-hparams.pkl", "wb") as f:
+        #     pickle.dump(hparams, f)
+
         if hparams.sortish_sampler and hparams.gpus > 1:
             hparams.replace_sampler_ddp = False
         elif hparams.max_tokens_per_batch is not None:
